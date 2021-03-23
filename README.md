@@ -10,7 +10,11 @@ what it does basicaly :
 
 
 ## pre-configuration :
-    In the file .env, spécify guild name and secret token
+Create a new file called ".env" looking like this :
+
+    DISCORD_TOKEN=<the_bot_secret_token>
+    DISCORD_GUILD=<guild/server name>
+    ARCHIVE_CATEGORY_NAME=ARCHIVES
 
 ## Launch with commands : 
     pip3 install discord
